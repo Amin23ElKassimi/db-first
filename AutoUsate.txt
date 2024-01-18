@@ -1,0 +1,26 @@
+    IDAuto INT PRIMARY KEY,UNIQUE, AUTO_INCREMENT, NOT NULL
+    Marca VARCHAR(50) NOT NULL,UNIQUE
+    Modello VARCHAR(50) NOT NULL, UNIQUE
+    AnnoProduzione INT NOT NULL,
+    Chilometraggio INT NOT NULL,
+    Prezzo DECIMAL(10, 2) NOT NULL,
+    Colore VARCHAR(20),
+    TipoCarburante VARCHAR(20),
+    Cambio VARCHAR(20),
+    NumeroProprietari INT,
+    Descrizione TEXT,
+    DataInserimento DATE NOT NULL,
+    Disponibile BOOLEAN NOT NULL,
+    ImmaginePrincipale VARCHAR(255), -- Percorso o URL dell'immagine principale dell'auto
+    Carrozzeria VARCHAR(20), -- Berlina, SUV, Coupé, ecc.
+    PotenzaCV INT,NULL
+    NumeroPorte INT,NULL, DEFAULT(3)
+    NumeroPosti INT,NULL
+    SistemaNavigazione BOOLEAN,NULL
+    ABS BOOLEAN,NULL
+    Airbag BOOLEAN,NULL
+    Bluetooth BOOLEAN,NULL
+    Climatizzatore BOOLEAN,NULL
+    VetriOscurati BOOLEAN,NULL
+    DataUltimaRevisione DATE,NULL
+    NoteRevisione TEXT
