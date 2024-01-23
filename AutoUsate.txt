@@ -24,3 +24,5 @@
     VetriOscurati BOOLEAN,NULL
     DataUltimaRevisione DATE,NULL
     NoteRevisione TEXT
+
+    
